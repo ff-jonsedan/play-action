@@ -1,0 +1,16 @@
+name: 'play-ation'
+description: 'Does stuff'
+author: 'me'
+inputs:
+  milliseconds: # change this
+    required: true
+    description: 'input description here'
+    default: 'default value if applicable'
+outputs:
+  foo:
+    description: "Foo"
+  bar:
+    description: "Bar"
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
